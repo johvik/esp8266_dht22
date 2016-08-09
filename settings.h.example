@@ -1,0 +1,15 @@
+#ifndef _settings_h_
+#define _settings_h_
+
+#define SSID        "SSID of the Wifi to connect to"
+#define PASSPHRASE  "Wifi password"
+#define URL         "Enter target URL for post data. Should end with a /"
+
+// Static IP configuration
+#define IP          IPAddress(192, 168, 0, 2)
+#define GATEWAY     IPAddress(192, 168, 0, 1)
+
+// command line: date | md5sum
+#define KEY         "b10b922610d99a089851676c82baf806"
+
+#endif
