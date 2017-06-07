@@ -3,7 +3,7 @@
 
 #define SSID        "SSID of the Wifi to connect to"
 #define PASSPHRASE  "Wifi password"
-#define URL         "Enter target URL for post data. Should end with a /"
+#define URL         "Enter target URL for post data. Should end with a / ie http://192.168.0.1:8080/api/sensor/"
 
 // Static IP configuration
 #define IP          IPAddress(192, 168, 0, 2)
